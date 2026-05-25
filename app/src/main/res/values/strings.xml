@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Světice → Praha</string>
-    <string name="widget_description">Nejbližší vlaky ze Světice do Prahy</string>
+    <string name="route_label">Světice → Praha</string>
+    <string name="widget_description">Nejbližší vlaky ze Světic do Prahy</string>
     <string name="config_title">Nastavení widgetu</string>
     <string name="active_days">Aktivní dny</string>
     <string name="time_window">Časové okno</string>
