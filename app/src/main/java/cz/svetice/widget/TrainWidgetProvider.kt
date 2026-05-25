@@ -104,7 +104,7 @@ class TrainWidgetProvider : AppWidgetProvider() {
                 context, 0, intent,
                 PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT
             )
-            views.setOnClickPendingIntent(android.R.id.background, pi)
+            views.setOnClickPendingIntent(R.id.widget_root, pi)
 
             mgr.updateAppWidget(widgetId, views)
         }
