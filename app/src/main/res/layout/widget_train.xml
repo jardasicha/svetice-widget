@@ -3,16 +3,133 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#FF141414"
-    android:padding="10dp"
-    android:gravity="center">
+    android:background="@drawable/widget_bg"
+    android:padding="10dp">
 
-    <TextView
-        android:id="@+id/test_text"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TEST"
-        android:textColor="#FFFFFF"
-        android:textSize="24sp" />
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="6dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/route_label"
+            android:textColor="#8FFFFFFF"
+            android:textSize="10sp"
+            android:textAllCaps="true"
+            android:letterSpacing="0.05" />
+
+        <TextView
+            android:id="@+id/last_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="—"
+            android:textColor="#55FFFFFF"
+            android:textSize="10sp"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/t1_planned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="06:12"
+            android:textColor="#FF5DCAA5"
+            android:textSize="18sp"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/t2_planned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07:42"
+            android:textColor="#FF5DCAA5"
+            android:textSize="18sp"
+            android:fontFamily="monospace" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/t2_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+4"
+            android:textColor="#FFF09595"
+            android:textSize="9sp"
+            android:fontFamily="monospace"
+            android:layout_marginEnd="4dp" />
+
+        <TextView
+            android:id="@+id/t2_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="07:46"
+            android:textColor="#FFF0997B"
+            android:textSize="18sp"
+            android:fontFamily="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/t3_planned"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="08:54"
+            android:textColor="#FF5DCAA5"
+            android:textSize="18sp"
+            android:fontFamily="monospace" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/t3_delay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+12"
+            android:textColor="#FFF09595"
+            android:textSize="9sp"
+            android:fontFamily="monospace"
+            android:layout_marginEnd="4dp" />
+
+        <TextView
+            android:id="@+id/t3_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="09:06"
+            android:textColor="#FFF0997B"
+            android:textSize="18sp"
+            android:fontFamily="monospace" />
+    </LinearLayout>
 
 </LinearLayout>
