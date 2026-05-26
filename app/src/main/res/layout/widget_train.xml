@@ -16,7 +16,7 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Světice → Praha"
+            android:text="@string/route_label"
             android:textColor="#8FFFFFFF"
             android:textSize="10sp" />
 
