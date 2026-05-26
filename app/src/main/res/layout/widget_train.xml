@@ -18,7 +18,8 @@
             android:layout_weight="1"
             android:text="@string/route_label"
             android:textColor="#8FFFFFFF"
-            android:textSize="10sp" />
+            android:textSize="10sp"
+            android:letterSpacing="0.05"/>
 
         <TextView
             android:id="@+id/last_update"
